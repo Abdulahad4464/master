@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 101);
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.usha{
+  color: black;
+  display: flex;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.cvb{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color:rgb(0, 0, 101);
+  color:white;
+  padding-top: 4px;
+}
+.usha h3{
+  padding-left: 10px;
+  margin-top: -8px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.usha button{
+  width: 109px;
+  height: 30px;
+  background-color: rgb(0, 255, 174);
+  border: none;
+  margin-left: 80px;
+  margin-top: -15px;
+}
+.but button{
+  width: 130px;
+  height: 20px;
+  background-color:rgb(202, 202, 202);
+  border-radius:10px;
+  margin-left: 20px;
+  border:none;
+}
+.shahar{
+  margin-left: 3.3%;
+  width: 100%;
+  height: 50px;
+  background-color:rgb(202, 202, 202);
+  display: flex;
+  color: rgb(45, 45, 45);
+}
+.shahar button{
+  width:100px;
+  height: 50px;
+  background-color: rgb(0, 0, 101);
+  color: white;
+  border: none;
+  border-radius:0px 100px 100px 0px;
+}
+.shahar h4{
+  margin-top: 18px;
+  padding-left: 10px;
+  display:flex;
+  font-size: 11px;
+}
+.ichi{
+  width: 20%;
+  height: 80vh;
+  transform:translateX(1100px);
+}
+.ichi h4{
+  margin: auto;
+  border:none;
+  margin-top: 40px;
+}
+.pul{
+  width: 40%;
+  height: 400px;
+  background-color: darkslategray;
+  transform: translateY(-480px);
+  color: white;
+  margin-left: 3.3%;
+}
+.pul img{
+  width: 100%;
+  height: 400px;
+}
+.bb{
+  padding-top: 20px;
+  width: 44%;
+  height: 400px;
+  background-color:rgb(196, 196, 196);
+  transform: translateX(540px)translateY(-880px);
+}
+.bb h4{
+  transform: translateY(40px)translateX(5px);
+}
+.tolib{
+  width: 40%;
+  height: 150px;
+  transform: translateY(-860px)translateX(8.3%);
+}
+.rasm{
+  width:35%;
+  height:50px;
+}
+.rasm img{
+  width: 100%;
+  height: 150px;
+}
+.tol h3{
+  width: 70%;
+  margin-left: 180px;
+  transform: translateY(-30px);
+}
+.mann{
+  width: 40%;
+  height: 150px;
+  transform: translateY(-870px)translateX(10px);
+}
+.man img{
+  width: 12%;
+  height: 150px;
+  transform: translateY(-1160px)translateX(600px);
+}
+.mann h3{
+  width: 70%;
+  transform: translateX(770px)translateY(-120px);
+}

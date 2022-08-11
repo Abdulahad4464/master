@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    /* davomiligi */
+    transition-duration:1s ;
+    /* kutish vaqti */
+    transition-delay:0.5 ;
+    /* holati */
+    transition-timing-function:linear;
+    /* nima uchun ishlashligi */
+    transition-property:all ;
+    /* property -> duration -> timing-function->delay*/
+    transition: border-radius 1s linear 0.5s;
+}
+.box:hover{
+    background-color: blue;
+    transform: translateX(50px);
+    border-radius: 50%;
+    /* transition-duration: ; */
+}
+.container{
+    width: 400px;
+    height: 200px;
+    /* rgb - color */
+    /* background: rgb(255, 0, 0); */
+    margin: auto;
+    /* hex code - color */
+    /* rbga - color hiralashtirish */
+    background:#00ff0099;
+    transform: translateY(50px);
+}
+.photo{
+    width: 300px;
+    transform: translateY(-80px);
+    opacity: 1;
+    transition: 1s;
+}
+.photo:hover{
+    opacity: 0.5;
+}
